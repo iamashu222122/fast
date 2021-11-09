@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    img {
+        height: 74px;
+    }
+
+    .logo {
+        display: flex;
+        width: 60%;
+    }
+
+    #navbar {
+        display: flex;
+        background-color: #4f4789;
+        position: fixed;
+        width: 100%;
+
+    }
+
+    .items ul {
+        display: flex;
+
+
+    }
+
+    .items ul li {
+        padding: 8px;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 23px;
+
+    }
+
+    .items ul li a {
+        color: azure;
+        text-decoration: none;
+
+
+    }
+
+    .items {
+        margin: auto;
+
+    }
+
+    .btn {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        color: black;
+
+    }
+
+    .items ul li a:hover {
+        background-color: rgb(20, 119, 233);
+        border-radius: 5px;
+    }
+
+    .get-started {
+        margin: auto;
+    }
+
+    .container {
+        width: 30%;
+        text-align: center;
+        display: block;
+        font-size: 23px;
+        margin-left: 73px;
+
+    }
+
+    .bg {
+        background: url(qbg.jpg);
+        height: 100%;
+        width: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 135px 0;
+    }
+
+    .bts {
+        margin: 22px;
+        padding: 10px 15px;
+        color: #ffffff;
+        background-color: #4CAF50;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 3px;
+        border: none;
+    }
+
+    .bts:hover {
+        color: black;
+
+
+    }
+
+    .sd {
+        display: flex;
+        
+        margin: 5px;
+        
+    }
+    .fd{
+        padding: 37px;
+        background-color: rgb(241, 235, 234);
+        margin: 5px;
+        border-radius: 5px;
+        border: 2px solid rgb(66, 65, 65);
+       
+    }
+
+    .fd h2{
+        padding: 6px 0;
+        font-size: 26px;
+    }
+    .nbt{
+        margin-top: 6px;
+        padding: 6px 10px;
+        background-color: rgb(48, 48, 49);
+        border-radius: 5px;
+        cursor: pointer;
+        color: #ffffff;
+    }
+    .nbt:hover{
+        background-color: white;
+        color: black;
+    }
+    .form-back{
+        height: 22rem;
+        background: url(cn.jpg);
+        background-size: cover;
+        
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 24rem;
+        margin: auto;
+    
+        padding-top: 40px;
+    }
+    .re{
+        padding: 12px;
+        color: black;
+        margin: 11px;
+        border-radius: 13px;
+        background-color: rgb(207, 216, 241);
+        
+    }
+.sbt{
+    width: 150px;
+    margin: auto;
+    cursor: pointer;
+    color: black;
+    background-color: #ffffff;
+
+}
+.sbt:hover{
+    background-color: black;
+    color: #ffffff;
+}
+footer{
+width: 30%;
+width: 100vw;
+margin: auto;
+padding: 23px;
+}
+
+.hg{
+background-color: #4f4789;
+
+}
+</style>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+            <div class="items">
+                <ul>
+                    <li class="list-items"><a href="">home</a></li>
+                    <li class="list-items"><a href="">about</a></li>
+                    <li class="list-items"><a href="">membership</a></li>
+                </ul>
+            </div>
+            <div class="get-started">
+                <button class="btn">get started</button>
+            </div>
+    </nav>
+    <div class="bg">
+
+        <div class="container">
+            <h2>welocome to our new page</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium iste libero eius adipisci enim
+                nulla consectetur rem consequuntur exercitationem, dolores sit repudiandae laborum!</p>
+            <div class="bt">
+                <button class="bts">get started</button>
+            </div>
+        </div>
+    </div>
+    <div class="sd">
+        <div class="one fd">
+            <h2>1.first project</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit eius numquam aliquam, laboriosam sit
+                ipsum eum repellendus! At quia reiciendis beatae doloribus.</p>
+                <button class="nbt">show</button>
+        </div>
+        <div class="two fd">
+            <h2>2.second project</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit eius numquam aliquam, laboriosam sit
+                ipsum eum repellendus! At quia reiciendis beatae doloribus.</p>
+                <button class="nbt">show</button>
+        </div>
+        <div class="three fd">
+            <h2>3.third project</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit eius numquam aliquam, laboriosam sit
+                ipsum eum repellendus! At quia reiciendis beatae doloribus.</p>
+                <button class="nbt">show</button>
+        </div>
+    </div>
+    <div class="sd">
+
+        
+        <div class="four fd">
+    <h2>4.fourth project</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit eius numquam aliquam, laboriosam sit
+                ipsum eum repellendus! At quia reiciendis beatae doloribus.</p>
+                <button class="nbt">show</button>
+            </div>
+            <div class="fiv fd">
+                <h2>5.fifth project</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit eius numquam aliquam, laboriosam sit
+                    ipsum eum repellendus! At quia reiciendis beatae doloribus.</p>
+                    <button class="nbt">show</button>
+                </div>
+                <div class="six fd">
+                    <h2>6.sixth project</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugit eius numquam aliquam, laboriosam sit
+                        ipsum eum repellendus! At quia reiciendis beatae doloribus.</p>
+                        <button class="nbt">show</button>
+                    </div>
+                </div>
+    </div>
+<div class="form-back">
+    <div class="form">
+        <input type="text" class="re" placeholder="Enter your name">
+        <input type="email" class="re" name="email" id="email" placeholder="Enter your email">
+        <input type="number" class="re" name="number" id="number" placeholder="Enter your number">
+        <button class="sbt re">submit</button>
+    </div>
+</div>
+<div class="hg">
+
+    <footer>
+        ©copyright -my new website 2087
+    </footer>
+</div>
+</body>
+
+</html>

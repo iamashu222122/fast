@@ -1,0 +1,31 @@
+.carousel-item{
+
+    height: 455px;
+        /* overflow: inherit; */
+        background-position: right top;
+}
+.card-img-top {
+    height: 297px;
+}
+.mb-3{
+    width: 33%;
+}
+.navbar{
+    position: sticky;
+}
+.cotainer{
+    display: flex;
+}
+@media (max-width:950px){
+    .cotainer{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-img-top{
+      
+        text-align: center;
+    }
+}
+
