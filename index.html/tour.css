@@ -29,3 +29,10 @@
     }
 }
 
+.social-link{
+    text-decoration: none;
+
+}
+.icon a{
+    padding: 5px;
+}
